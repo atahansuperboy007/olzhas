@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.933);
+  font-family: 'KoHo', sans-serif;
+}
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.movie-list {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-item {
+  background-color: white;
+
+  width: 18%;
+  margin-right: 2%;
+  margin-bottom: 32px;
+  box-shadow: 0px 0px 11px 4px #ffffff;
+}
+.movie-item:hover {
+  box-shadow: 0px 0px 15px 10px #ffffff;
+  transition: 0.29s;
+}
+.movie-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+.movie-item h1 {
+  font-size: 24px;
+  padding: 8px;
+}
+
+.movie-item p {
+  font-size: 14px;
+  padding: 0 8px;
+}
+.movie-item-inner {
+    padding: 10px;   
+}
+.movie-item{
+    color: black;
+    text-decoration: none;  
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.links a {
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.movie {
+  padding:50px;
+  display: flex;
+}
+.movie img {
+  border-radius: 10px;
+  width: 400px;
+}
+.links {
+  display: flex;
+  color: white;
+  width: 30%;
+}
+.search {
+  width: 30%;
+}
+.movie-text {
+  padding: 50px;
+}
+header{
+  border-bottom: 2px white solid;
+  margin-bottom: 10px;
+}
+header .container{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+  letter-spacing: 1.2px;
+  width: 30%;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  border:1px white solid ;
+  margin-bottom: 20px;
+}
+
+.form input{
+    flex: 1;
+    height: 32px;
+    padding: 0 12px;
+    outline: none;
+}
+
+.form button{
+    width: 120px;
+}
+footer{
+    text-align: center;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+.welcome{
+  
+ 
+}
+.img-box img{
+  margin-left: 50px;
+ border-radius: 100px;
+margin-top: 4px;
+}
+.welcome-link{
+  text-decoration: none;
+}
+.welcome-inner{
+  height: 450px;
+  background-color: violet;
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.welcome-text{
+  padding: 50px 60px;
+}
+.welcome-link-active{
+  border-bottom: solid 1px white ;
+}
+
+.slider img{
+width: 1400px;
+height: 700px;
+object-fit: cover;
+}
+
+.form input{
+  border-radius: 20px;
+  border: 1px blue solid;
+}
+
+.form button{
+  border:none;
+  border-radius: 20px;
+}
+#first-link{
+  padding: 5px;
+}
+
+#first-link:hover{
+ 
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px 5px white;
+  transition: 0.5s;
+}
+
+#second-link{
+  padding: 5px;
+}
+
+#second-link:hover{
+ 
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px 5px white;
+  transition: 0.5s;
+}
+
+#thirtys-link{
+  padding: 5px;
+}
+
+#thirtys-link:hover{
+ 
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px 5px white;
+  transition: 0.5s;
+}
+
+.search-1{
+  padding: 100px;
+}
